@@ -52,15 +52,16 @@ Memeriksa apakah GPU NVIDIA tersedia di lingkungan (seperti Google Colab):
 
 ```bash
 !nvidia-smi
+```
 
-
-Menginstal TensorFlow dn Tensorflow.js:
+Menginstal TensorFlow dan Tensorflow.js:
 
 ```bash
 pip install tensorflow tensorflowjs
-
+```
 
 Untuk menginstall tesk requirement gunakan perintah:
 
 ```bash
 !pip freeze requirements.txt
+```
